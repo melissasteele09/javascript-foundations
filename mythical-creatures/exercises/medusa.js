@@ -10,7 +10,6 @@ class Medusa {
     if(this.statues.length > 3) {
       var freed = this.statues.shift()
       freed.stoned = false
-      // this.statues.shift()
     }
   }
 }
